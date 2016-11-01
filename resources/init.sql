@@ -1,0 +1,1 @@
+create table files(id int not null primary key auto_increment, name varchar(255), path varchar(255), size bigint(16), checksum binary(16));
